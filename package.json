@@ -1,0 +1,14 @@
+{
+  "name": "advanced-react-concepts",
+  "version": "1.0.0",
+  "description": "This is Advanced React Concepts",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Harshith",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  }
+}
