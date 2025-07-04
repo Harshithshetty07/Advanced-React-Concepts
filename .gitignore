@@ -1,2 +1,13 @@
 /node_modules
 
+# Parcel
+- Dev Build
+- Local Server
+- HMR = Hot Module Replacement
+- File Watching Algorithm - Written in C++
+- Caching - Faster Builds
+- Image Optimization
+- Minification
+- Bundling
+- Compressing the Files
+- Differential Bundling - support older browsers
