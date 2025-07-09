@@ -679,26 +679,6 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-const parent = /*#__PURE__*/ (0, _reactDefault.default).createElement("div", {
-    id: "parent"
-}, [
-    /*#__PURE__*/ (0, _reactDefault.default).createElement("div", {
-        id: "child"
-    }, [
-        /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {}, "I'm h1 tags"),
-        /*#__PURE__*/ (0, _reactDefault.default).createElement("h2", {}, "I'm a h2 tag")
-    ]),
-    /*#__PURE__*/ (0, _reactDefault.default).createElement("div", {
-        id: "child2"
-    }, [
-        /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {}, "I'm h1 tag"),
-        /*#__PURE__*/ (0, _reactDefault.default).createElement("h2", {}, "I'm a h2 tag")
-    ])
-]);
-// const heading = React.createElement("h1", {}, "Hello World!");
-const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
-console.log(parent);
-root.render(parent);
 
   $parcel$ReactRefreshHelpers$4931.postlude(module);
 } finally {
