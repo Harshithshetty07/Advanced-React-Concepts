@@ -689,16 +689,67 @@ var _clientDefault = parcelHelpers.interopDefault(_client);
 // console.log(heading);
 // JSX (Transpiled before it reaches the JS) - PARCEL - Babel
 // JSX =>React.createElement => ReactElement-JS-Object => HTMLElement(render)
-const jsxHeading = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-    children: "Hello React!!.."
+// const jsxHeading = <h1>Hello React!!..</h1>;
+// console.log(jsxHeading);
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(jsxHeading)
+const heading = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+    className: "head",
+    tabIndex: "5",
+    children: "Hello React"
 }, void 0, false, {
     fileName: "App.js",
-    lineNumber: 18,
-    columnNumber: 20
+    lineNumber: 28,
+    columnNumber: 5
 }, undefined);
-console.log(jsxHeading);
+// React Conponent
+// 1. React Function component
+// Component Composition
+const Title = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+        children: "Hello Title"
+    }, void 0, false, {
+        fileName: "App.js",
+        lineNumber: 39,
+        columnNumber: 5
+    }, undefined);
+_c = Title;
+const HeadingComponent = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        id: "container",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Title, {}, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 45,
+                columnNumber: 9
+            }, undefined),
+            Title(),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                children: "Hello React Function Component"
+            }, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 47,
+                columnNumber: 5
+            }, undefined),
+            ";"
+        ]
+    }, void 0, true, {
+        fileName: "App.js",
+        lineNumber: 44,
+        columnNumber: 5
+    }, undefined);
+};
+_c1 = HeadingComponent;
+// const HeadingComponent1 = () =>  <h1>Hello React Function Component</h1>;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
-root.render(jsxHeading);
+// root.render(heading);
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeadingComponent, {}, void 0, false, {
+    fileName: "App.js",
+    lineNumber: 60,
+    columnNumber: 13
+}, undefined));
+var _c, _c1;
+$RefreshReg$(_c, "Title");
+$RefreshReg$(_c1, "HeadingComponent");
 
   $parcel$ReactRefreshHelpers$4931.postlude(module);
 } finally {
