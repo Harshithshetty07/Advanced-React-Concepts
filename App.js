@@ -79,7 +79,10 @@ const Body = () => {
                 Search
             </div>
             <div className="res-container">
-                <RestaurantCard resName="Meghana Foods" cuisine="Biriyani, North Indian"/>
+                <RestaurantCard resName="Meghana Foods" 
+                cuisine="Biriyani, North Indian"
+                
+                />
                 <RestaurantCard resName="KFC" cuisine="Burger, Fast Food"/>
             </div>
         </div>
