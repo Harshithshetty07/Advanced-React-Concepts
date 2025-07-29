@@ -795,41 +795,41 @@ const RestaurantCard = (props)=>{
                 src: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2025/6/6/f6c81999-57b6-4eb7-ac66-dc1c3485f2e4_6ba607a5-1751-462a-a73d-68ae91ade469.jpg"
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 63,
+                lineNumber: 64,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                 children: resName
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 67,
+                lineNumber: 68,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
                 children: cuisine
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 68,
+                lineNumber: 69,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
                 children: "4.4 stars"
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 69,
+                lineNumber: 70,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
                 children: "38 mins"
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 70,
+                lineNumber: 71,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.js",
-        lineNumber: 62,
+        lineNumber: 63,
         columnNumber: 9
     }, undefined);
 };
@@ -843,7 +843,7 @@ const Body = ()=>{
                 children: "Search"
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 78,
+                lineNumber: 79,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -854,7 +854,7 @@ const Body = ()=>{
                         cuisine: "Biriyani, North Indian"
                     }, void 0, false, {
                         fileName: "App.js",
-                        lineNumber: 82,
+                        lineNumber: 83,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {
@@ -862,19 +862,19 @@ const Body = ()=>{
                         cuisine: "Burger, Fast Food"
                     }, void 0, false, {
                         fileName: "App.js",
-                        lineNumber: 86,
+                        lineNumber: 87,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "App.js",
-                lineNumber: 81,
+                lineNumber: 82,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.js",
-        lineNumber: 77,
+        lineNumber: 78,
         columnNumber: 9
     }, undefined);
 };
@@ -885,18 +885,18 @@ const AppLayout = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Header, {}, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 95,
+                lineNumber: 96,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Body, {}, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 96,
+                lineNumber: 97,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.js",
-        lineNumber: 94,
+        lineNumber: 95,
         columnNumber: 9
     }, undefined);
 };
@@ -904,7 +904,7 @@ _c3 = AppLayout;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
     fileName: "App.js",
-    lineNumber: 106,
+    lineNumber: 107,
     columnNumber: 13
 }, undefined)); // React.createElement => ReactElement-JS Object => HTMLElement(render)
  // const heading = React.createElement(
